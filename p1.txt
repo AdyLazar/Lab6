@@ -1,0 +1,13 @@
+dec main ( ) {
+dec a = 1 ;
+dec b = 1 ;    
+dec a = extract ( 0 , a ) ; 
+    dec b = extract ( 0 , b ) ; 
+    dec r ;
+    while ( a / b > 0 ) {
+      r = a / b ;
+      a = b ;
+      b = R ;
+}
+    inject ( b ) ; 
+}
